@@ -11,7 +11,7 @@
 
 ----
 ## 📝Content
-- Java
+- [Java](./content/java.md)
 - Spring
 - JPA
 - Database
