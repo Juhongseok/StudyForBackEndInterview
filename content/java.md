@@ -6,6 +6,12 @@
 - [데이터 타입](#데이터-타입)
 - [Wrapper Class](#wrapper-class)
 - [박싱 언박싱](#박싱-언박싱)
+- [오토 박싱, 오토 언박싱](#오토-박싱-오토-언박싱)
+- [객체지향 vs 절차지향](#객체지향-vs-절차지향)
+- [OOP(객체지향 프로그래밍 Object Oriented Programming)](#oop객체지향-프로그래밍-object-oriented-programming)
+- [OOP의 5가지 원칙 SOLID](#oop의-5가지-원칙-solid)
+- [Java Collection Framework](#java-collection-framework)
+- [람다](#람다)
 --------
 ### Java의 장단점
 - 장점
@@ -109,3 +115,29 @@ int n = number; // 오토 언박싱
     - 인터페이스가 명확, 대체 가능성이 높아진다
 - D (DIP) 의존관계 역전 원칙
     - 구현클래스(구체화)에 의존하지 않고 인터페이스(추상화)에 의존해야한다
+
+### Java Collection Framework
+![collection](/image/java-collections-framework.png)
+
+- Map
+    - 검색할 수 있는 인터페이스
+    - 데이터를 삽입할 때 Key와 Value의 형태로 삽입되며, Key를 이용해서 Value를 얻을 수 있다.
+- Collection
+    - List
+        - 순서가 있는 Collection
+        - 데이터를 중복해서 포함할 수 있다.
+    - Set
+        - 집합적인 개념의 Collection
+        - 순서의 의미가 없다.
+        - 데이터를 중복해서 포함할 수 없다.
+
+### 람다
+- 자바 8에서 등장
+- 메서드를 하나의 식으로 표현하는 익명 함수
+- 인터페이스 내에 한 개의 추상 메서드만 정의되어있는 함수형(Function) 인터페이스에 사용 가능
+    - 장점
+        -기존에 익명함수로 작성하던 코드를 줄일 수 있음
+    - 가독성 증가
+    - 병렬 프로그래밍이 용이하다.
+
+[추가 설명](https://whatistudy.tistory.com/entry/%EB%9E%8C%EB%8B%A4)
